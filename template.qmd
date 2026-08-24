@@ -1,0 +1,39 @@
+---
+title: "TITLE"
+author: "NAME HERE"
+date: "DATE HERE"
+format: 
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-tools: true
+    code-line-numbers: true
+    embed-resources: true
+    include-in-header: 
+      - file: "math.jax"
+execute:
+  echo: true
+  message: false
+  warning: false
+  error: true
+jupyter: python3
+---
+
+```{python}
+#| label: setup
+#| include: false
+
+import numpy as np
+import pandas as pd
+
+np.set_printoptions(precision=3, threshold=200)
+pd.set_option("display.precision", 3)
+pd.set_option("display.max_rows", 200)
+```
+
+## Problem 1
+
+## Problem 2
+
+## Problem 3
