@@ -4,5 +4,5 @@ This is a quarto homework template used for Dr. Isaac Quintanilla Salinas' cours
 ### Installation
 
 ```bash
-quarto use template inqs909/qs_hw
+quarto use template inqs909/qs_hw_python
 ```
